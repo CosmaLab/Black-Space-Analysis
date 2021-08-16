@@ -29,31 +29,27 @@ Generates percentage of a Region Of Interest (ROI) with no localizations or low 
 To deploy this project run
 
 ```
-1.	Open accessory function "Vicky_QuickDensity" check and adjust to image dimension (ex. 256 or 512 pixels).
+1. Open Main code: "BlackSpace_MAIN"
 
-2.	Open Main code: "BlackSpace_MAIN"
+2. Adjust the following parameters: 
+	•	Number of experimental categories
+	•	Define file path to folder containing files to analyze
+	•	Adjust name of categories
+	•	Adjust size of ROI by changing MaxX and MaxY values (ex 256 or 512 pixels)
+	•	Super resolution Pixel size and Gaussian sigma can be adjusted but better to start by and keep default values (i.e. 20 nm and 2)
+	•	Check and adjust if necessary adaptive threshold value (for example 0.001) 
 
-3.	Adjust number of experimental categories
+3. Run script.
 
-4.	Adjust name of categories
+4. Load .bin files for each category.
 
-5.	Check and adjust if necessary adaptive threshold value (for example 0.001)
+5. The script will generate 1 Figure per each file containing the visualization of localizations, the mask of DNA, and the mask of the whole nucleus.
 
-6.	Super resolution Pixel size and Gaussian sigma can also be adjusted but better to start by and keep default values (i.e. 20 nm and 2)
+6. Visually check the masks and segmentations generated. Adjust parameters if necessary and launch analysis again.
 
-7.	Launch analysis
-
-8.	Load .bin files for each category
-
-9.	Check results in Worskpace. They are saved in the cell variable “percentage_black”. Save the workspace and or export values to other programs to plot. 
+7. Check results, they are in the cell variable “percentage_black” in the Workspace and saved automatically saved at source directory as Blackspace_result.xlsx file.   
 
 ```
-
-  
-## TODO/FIXME
-- Save output under a table format including name of categories(for example .csv, excel or any other format)
-
-  
 ## Research Implementation
 Example Methods summary for Black Space analysis (from Neguembor et al Mol Cell 2021): 
 Quantification of DNA-free areas DNA-free area was quantified from DNA STORM images by applying a binary threshold on a Gaussian filtered density map (imbinarize.m Matlab function, with adaptive threshold, sensitivity of 0.001, pixel size 20 nm, sigma 2). Percentage of DNA-free areas over the imaged nuclear area were estimated for each nucleus.
