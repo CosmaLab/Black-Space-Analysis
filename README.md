@@ -9,7 +9,7 @@ This code is used to quantify the percentage of a Region of Interest with No loc
 
 `.bin` files (select your ROIs of interest first). 
 ## Output 
-Generates pecentage of a Region Of Interest (ROI) with no localizations or low density of localizations(i.e the "Black Space") over the total area found in the workspace and are automatically saved as a .xls file. 
+Generates percentage of a Region Of Interest (ROI) with no localizations or low density of localizations(i.e the "Black Space") over the total area found in the workspace and are automatically saved as a .xls file. 
 ## Composed by:
 - `Vicky_QuickDensity.m`: accessory function, open first, check and adjust to image dimension (ex. 256 or 512 pixels).
 - `BlackSpace_MAIN.m`: main script, code to open to run the analysis. 
