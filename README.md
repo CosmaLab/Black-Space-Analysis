@@ -19,7 +19,7 @@ Generates percentage of a Region Of Interest (ROI) with no localizations or low 
 
   
 ## Authors
-- Code by Chiara Vicario 
+- Code by Chiara Vicario, modified by Alvaro Castells-Garcia
 - README and annotation updated by Victoria Neguembor 
 
   
