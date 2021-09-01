@@ -11,9 +11,8 @@ This code is used to quantify the percentage of a Region of Interest with No loc
 ## Output 
 Generates percentage of a Region Of Interest (ROI) with no localizations or low density of localizations(i.e the "Black Space") over the total area found in the workspace and are automatically saved as a .xls file. 
 ## Composed by:
-- `QuickDensity.m`: accessory function, open first, check and adjust to image dimension (ex. 256 or 512 pixels).
-- `BlackSpace_MAIN.m`: main script, code to open to run the analysis. 
-
+- `BlackSpace_MAIN.m`: main script, code to open to run the analysis.
+- `QuickDensity.m`: accessory function
   
 ## Tested
 - Tested using Matlab_2016b
