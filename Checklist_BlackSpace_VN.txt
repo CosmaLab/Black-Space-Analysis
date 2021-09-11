@@ -1,8 +1,0 @@
-﻿Code Review Checklist
-* README.md file 
-* All methods are commented in clear language. If it is unclear to the reader, it is unclear to the user.
-* All source code contains @author for all authors.
-* Incomplete code is marked with //TODO or //FIXME markers.
-* Check for input taking the ability of code, what type of input is allowed. 
-* Check output producing the code. 
-Checked by:        Victoria Neguembor                                                                                     Date: 2021-06-04
