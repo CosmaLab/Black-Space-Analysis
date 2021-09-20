@@ -15,7 +15,7 @@ Generates percentage of a Region Of Interest (ROI) with no localizations or low 
 - `QuickDensity.m`: accessory function
   
 ## Tested
-- Tested using Matlab_2016b
+- Tested using Matlab_2016b, R2016a, and MATLAB R2021a.
 
   
 ## Authors
@@ -46,12 +46,12 @@ To deploy this project run
 
 6. Visually check the masks and segmentations generated. Adjust parameters if necessary and launch analysis again.
 
-7. Check results, they are in the cell variable “percentage_black” in the Workspace and saved automatically saved at source directory as Blackspace_result.xlsx file.   
+7. Check results, they are in the cell variable “percentage_black” in the Workspace and automatically saved at source directory as Blackspace_result.xlsx file.   
 
 ```
 ## Research Implementation
 Example Methods summary for Black Space analysis (from Neguembor et al Mol Cell 2021): 
-Quantification of DNA-free areas DNA-free area was quantified from DNA STORM images by applying a binary threshold on a Gaussian filtered density map (imbinarize.m Matlab function, with adaptive threshold, sensitivity of 0.001, pixel size 20 nm, sigma 2). Percentage of DNA-free areas over the imaged nuclear area were estimated for each nucleus.
+Quantification of DNA-free areas. DNA-free area was quantified from DNA STORM images by applying a binary threshold on a Gaussian filtered density map (imbinarize.m Matlab function, with adaptive threshold, sensitivity of 0.001, pixel size 20 nm, sigma 2). Percentage of DNA-free areas over the imaged nuclear area were estimated for each nucleus.
 
 
 
