@@ -1,7 +1,7 @@
 %% Code by Chiara VICARIO 2019-02
 % Further annotated & Readme file by Victoria NEGUEMBOR 2021-06
 %%Accessory function for Black Space Quantification
-% Further annotated by Laura MARTIN 2023-10
+%% Further annotated by Laura MARTIN 2023-10
 
 %%Input from BlackSpace_MAIN: 
 %% x,y localizations coordinates
