@@ -21,7 +21,7 @@ SR_px = SR_px/160;
 
 %% axes from min to max are binned with the
 %% first bin and last bins centered in the first and last values
-%% example: 0:0.250:1 (you expect to count 1:0.250=4 bins)
+%% example: 0:0.250:1 (you expect to count 1:0.250 = 4 bins)
 %% but bins will be 5: 0-0.124; 0.125-0.374; 0.375-0.624; 0.625-0.874; 0.875-1.
 %% because the first and last ones are half the bin size.
 
